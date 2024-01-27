@@ -1,8 +1,14 @@
-<app-menu-bar></app-menu-bar>
+<header>
+    <app-menu-bar></app-menu-bar>
+</header>
 <app-menu-title></app-menu-title>
 <div class="articles">
     <div class="articles-main">
-        <app-big-card></app-big-card>
+        <!--substituindo os valores de photoBig e o titleCard do componente Big card-->
+        <app-big-card 
+        photoBig="https://ericroth.org/wp-content/uploads/2017/12/lorem-ipsum.jpg" 
+        titleCard="Testando o texto"
+        ></app-big-card>
     </div>
     <div class="articles-secound">
         <app-small-card></app-small-card>

@@ -1,0 +1,17 @@
+
+.nav-bar > ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+.nav-bar > ul > li{
+    list-style: none;
+    margin-right: 15px;
+    
+}
+
+.nav-bar > ul > li > a{
+    text-decoration: none;
+}
